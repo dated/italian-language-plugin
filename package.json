@@ -1,0 +1,32 @@
+{
+  "name": "@dated/italian-language-plugin",
+  "version": "0.0.1",
+  "description": "Italian Language Pack",
+  "main": "src/index.js",
+  "author": "Edgar Goetzendorff <hello@dated.fun>",
+  "license": "MIT",
+  "desktop-wallet": {
+    "title": "Italian Language Pack",
+    "categories": [
+      "language"
+    ],
+    "permissions": [
+      "LANGUAGES"
+    ],
+    "minVersion": "2.7"
+  },
+  "keywords": [
+    "language",
+    "@arkecosystem",
+    "desktop-wallet",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/dated/italian-language-plugin/issues"
+  },
+  "homepage": "https://github.com/dated/italian-language-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dated/italian-language-plugin.git"
+  }
+}
