@@ -29,25 +29,32 @@
 
   "messages": {
     "COMMON": {
+      "ADAPTER": "Adattatore",
       "ADDRESS": "Indirizzo",
       "ALL": "Tutto",
       "APP_NAME": "ARK Desktop Wallet",
       "APP_NAME_SHORT": "ARK Desktop",
       "APPEARANCE": "Aspetto",
       "AVATAR": "Avatar",
+      "ARK": "ARK",
       "BACK": "Indietro",
       "BACKGROUND": "Sfondo",
       "BIP39_LANGUAGE": "Lingua Frase Segreta (BIP39)",
+      "CATEGORY": "Categoria",
       "CONFIRM": "Conferma",
       "CURRENCY": "Valuta",
       "DATE": "Data",
       "DELEGATE": "Delegato",
+      "DESKTOP_WALLET": "Desktop Wallet",
       "DONE": "Fatto",
+      "ENABLE_ADVANCED_MODE": "Attiva la modalità avanzata per utilizzare questa funzione",
       "FAILED_UPDATE": "Impossibile aggiornare '{name}'. Motivo: {reason}",
       "FAILED_FETCH": "Impossibile recuperare {name}. Motivo: '{msg}'.",
       "FETCH": "Recupera",
+      "FILTER_BLACKLISTED_PLUGINS": "Filtra plugin nella lista nera",
       "FINISH": "Fine",
       "HIDE_WALLET_BUTTON_TEXT": "Nascondi il testo dai pulsanti del portafoglio",
+      "INITIALIZING": "Inizializzando...",
       "IS_MARKET_CHART_ENABLED": "Grafico prezzo in dashboard",
       "LANGUAGE": "Lingua Applicazione",
       "LEDGER": "Ledger",
@@ -60,17 +67,28 @@
       "OF": "di",
       "OTHER": "Altro",
       "PREV": "Indietro",
+      "PRICE_PROVIDER": "Fornitore di prezzi",
       "PROFILE_NAME": "Nome Profilo",
       "REMOVE": "Rimuovi",
       "SAVE": "Salva",
+      "SIZE": "Dimensioni",
       "SKIP": "Salta",
       "START": "Inizia",
       "THEME": "Tema",
+      "THEMES": {
+        "LIGHT": "Predefinito: Chiaro",
+        "DARK": "Predefinito: Scuro"
+      },
       "TIME_FORMAT": "Formato orario",
+      "URL": "URL",
       "VERIFIED_ADDRESS": "Questo è un indirizzo verificato",
+      "VERSION": "Versione",
       "WARNING": "Attenzione",
       "WILL": "sarà",
-      "WALLET": "Portafoglio"
+      "WALLET": "Portafoglio",
+      "X_OF_Y": "{0} di {1}",
+      "ADVANCED_MODE": "Modalità avanzata",
+      "DEFAULT_CHOSEN_FEE": "Tipo di commissione predefinita"
     },
     "ANNOUNCEMENTS": {
       "LATEST_NEWS": "Ultime News",
@@ -139,11 +157,15 @@
       "FAILED_DECRYPT": "Fallito nel decifrare la frase segreta",
       "FAILED_ENCRYPT": "Fallito nel cifrare la frase segreta"
     },
+    "LEDGER": {
+      "NEEDS_UPDATE": "È disponibile un aggiornamento Ledger! Aggiorna l'app ARK tramite Ledger Live per poter inviare transazione su questa rete."
+    },
     "PEER": {
       "BEST": "Connetti al migliore",
-      "CONFIG_CHECK_FAILED": "Controllo configurazione fallito",
       "CONNECTED": "Connesso al peer",
       "CONNECT_CUSTOM": "Connetti peer personalizzato",
+      "CUSTOM_TITLE": "Connettiti ad un peer personalizzato",
+      "MULTI_SIGNATURE_TITLE": "Connetti peer Firma-Multipla",
       "CONNECT_FAILED": "Impossibile connettersi al peer",
       "LATENCY": "Latenza",
       "DISCONNECT": "Disconnesso dal peer",
@@ -158,10 +180,15 @@
     },
     "VALIDATION": {
       "TOO_LONG": "'{0}' è troppo lungo",
+      "TOO_SHORT": "'{0}' è troppo corto",
+      "INVALID_SEED": "Server non valido",
       "INVALID_URI": "URI non valido",
+      "INVALID_URL": "URL non valido",
+      "INVALID_PORT": "Porta non valida",
       "INVALID_FORMAT": "Formato non valido",
       "INVALID_TYPE": "Tipo non valido",
       "MAX_LENGTH": "Max {0}",
+      "MIN_LENGTH": "Min {0}",
       "MUST_BE_GREATER_THAN": "Deve essere maggiore di {0}",
       "NOT_MATCH": "'{0}' non coincide con '{1}'",
       "NOT_VALID": "'{0}' non è valido",
@@ -186,6 +213,11 @@
       },
       "PUBLIC_KEY": {
         "INVALID_LENGTH": "La chiave pubblica deve avere una lunghezza di 66 caratteri"
+      },
+      "URL": {
+        "INVALID": "URL invalido",
+        "NO_GITHUB": "Sono permessi solo URL che contengono 'github.com'",
+        "NO_GITHUB_REPOSITORY": "Questo URL non appartiene ad un repositorio GitHub"
       },
       "VENDOR_FIELD": {
         "LIMIT_REACHED": "È possibile inserire un massimo di {0} caratteri",
@@ -219,6 +251,7 @@
     "MARKET": {
       "MARKET": "Mercato",
       "HISTORICAL_DATA": "Dati storici",
+      "CHECK_TRADEABLE": "Verifica commerciabilità",
       "DAY": "Giorno",
       "WEEK": "Settimana",
       "MONTH": "Mese"
@@ -246,7 +279,7 @@
       "DASHBOARD": "Dashboard",
       "NETWORK": "Rete",
       "NETWORKS": "Gestisci reti",
-      "PLUGINS": "Plugin",
+      "PLUGIN_MANAGER": "Plugin Manager",
       "PLUGINS_PAGES": "Pagine Plugin",
       "SETTINGS": {
         "CURRENCY": "Valuta",
@@ -261,6 +294,7 @@
         "BACKGROUND_UPDATE_LEDGER": "Aggiorna Ledger in background",
         "BROADCAST_PEERS": "Trasmetti a peer multipli",
         "TITLE": "Settaggi attuali",
+        "MANAGE_BLACKLIST": "Gestisci lista nera",
         "RESET_DATA": {
           "TITLE": "Resetta i dati",
           "QUESTION": "Sei sicuro di voler eliminare i tuoi dati?",
@@ -345,6 +379,9 @@
       },
       "SEARCH_HINT": "Puoi cercare per nome utente, indirizzo o chiave pubblica"
     },
+    "INPUT_EDITABLE_LIST": {
+      "NO_ITEMS": "Questa lista non contiene elementi"
+    },
     "INPUT_FEE": {
       "LAST": "Ultima",
       "MINIMUM": "Minimo",
@@ -366,6 +403,12 @@
     },
     "INPUT_GRID_MODAL": {
       "TITLE": "Seleziona"
+    },
+    "INPUT_PUBLIC_KEY": {
+      "TITLE": "Chiave pubblica",
+      "ERROR": {
+        "NOT_VALID": "La chiave pubblica non è valida"
+      }
     },
     "WALLET_SELECTION": {
       "PROFILE": "Profilo Mittente",
@@ -439,10 +482,12 @@
       "SYMBOL": "Simbolo",
       "VERSION": "Versione",
       "EXPLORER": "Explorer",
+      "KNOWN_WALLETS_URL": "URL dei portafogli conosciuti",
       "EPOCH": "Epoch",
       "WIF": "WIF",
       "SLIP44": "Slip44",
       "ACTIVE_DELEGATES": "Delegati attivi",
+      "ADDRESS_VERSION_MISSING": "Mancava la versione dell'indirizzo - ti preghiamo di controllare i tuoi portafogli",
       "MARKET_TICKER": "Market Ticker (Opzionale)",
       "FAILED_FETCH": "Impossibile recuperare le informazioni di rete",
       "NETWORK_IN_USE": "Questa rete è in uso da uno o più profili e non può essere rimossa",
@@ -463,12 +508,41 @@
       "CONNECT": "Connetti",
       "HOST": "Protocollo + IP / Hostname",
       "PORT": "Porta",
-      "TITLE": "Connetti ad un peer personalizzato",
       "VALIDATING": "Validazione dettagli peer...",
       "PLACEHOLDER": {
         "HOST": "http://1.2.3.4",
         "PORT": "4003"
       }
+    },
+    "MODAL_PLUGIN_MANAGE_BLACKLIST": {
+      "CLOSE": "Chiudi",
+      "EMPTY": "Non ci sono plugin sulla tua lista nera",
+      "REMOVE_ALL": "Rimuovi tutti",
+      "TITLE": "Lista nera plugin"
+    },
+    "MODAL_PLUGIN_DETAILS": {
+      "INSTALL": "Installa",
+      "KEYWORDS": "Parole chiave",
+      "SHOW_PERMISSIONS": "Mostra autorizzazioni"
+    },
+    "MODAL_PLUGIN_INSTALL": {
+      "CANCEL": "Annulla",
+      "DOWNLOADED": "Download di {plugin} completato",
+      "DOWNLOADING": "Download di {plugin} in corso",
+      "INSTALL": "Installa ora",
+      "UPDATE": "Aggiorna ora",
+      "UNKNOWN_ERROR": "Errore sconosciuto. Chiudi questa finestra e riprova."
+    },
+    "MODAL_PLUGIN_PERMISSIONS": {
+      "ALTERNATIVE_TITLE": "Questo plugin necessita delle seguenti autorizzazioni",
+      "BACK": "Indietro",
+      "DOWNLOAD": "Scarica ora",
+      "TITLE": "Autorizzazioni"
+    },
+    "MODAL_PLUGIN_URL": {
+      "TITLE": "Installa da URL",
+      "EXPLANATION": "Scarica il plugin direttamente da GitHub utilizzando l'URL del repositorio del plugin nel campo di input sottostante.",
+      "DISCLAIMER": "<b>Disclaimer:</b> Please make sure to check the documentation of the plugin before installing it. By installing it on your wallet, you assume every responsibility."
     },
     "PASSPHRASE_INPUT": {
       "HIDE": "Nascondi la frase segreta",
@@ -532,11 +606,60 @@
         "CREATE_NEW_DESCRIPTION": "Impostazioni individuali per la tua rete",
         "NEW_NETWORK": "Nuova rete"
       },
-      "PLUGINS": {
+      "PLUGIN_MANAGER": {
         "HEADER": "Plugin",
-        "DISCOVER": "Esplora i Plugin",
-        "OPEN": "Apri i Plugin",
-        "RELOAD": "Ricarica i Plugin"
+        "ENABLED": "Attivato",
+        "DISABLED": "Disattivato",
+        "INSTALL": "Installa",
+        "INSTALLING": "Installazione di '{plugin}' in corso",
+        "INSTALL_URL": "Installa da URL",
+        "BLACKLISTING": "Mettendo '{plugin}' sulla lista nera",
+        "REMOVING": "Rimozione di '{plugin}' in corso",
+        "UPDATING": "Aggiornamento di '{plugin}' in corso",
+        "OFFICIAL": "Plugin ufficiale {author}",
+        "MENU": "Menu",
+        "BANNER": {
+          "TITLE": "Benvenuto nel Plugin Manager",
+          "SUBTITLE": "Il modo più semplice per trovare, gestire e installare i plugin"
+        },
+        "CATEGORIES": {
+          "ALL": "Tutti",
+          "GAMING": "Giochi",
+          "UTILITY": "Utilità",
+          "THEME": "Temi",
+          "LANGUAGE": "Lingue",
+          "OTHER": "Altri"
+        },
+        "FILTERS": {
+          "ALL": "Tutti",
+          "INSTALLED": "Installati"
+        },
+        "NO_SEARCH_RESULTS": "Sfortunatamente, la ricerca di \"{query}\" non ha dato risultati",
+        "NO_RESULTS": "Non ci sono plugin {filtro} con la categoria {categoria}",
+        "SEARCH": "Cerca",
+        "CLICK_TO_RELOAD": "Ricarica il repositorio dei plugin",
+        "ALREADY_INSTALLED": "Hai già installato questo plugin",
+        "UPDATE": {
+          "AVAILABLE": "Aggiorna all'ultima versione ({versione})",
+          "NOT_AVAILABLE": "Non ci sono aggiornamenti"
+        },
+        "ERRORS": {
+          "ALREADY_INSTALLED": "Il plugin '{plugin}' è già installato",
+          "DISABLE": "Impossibile disattivare il plugin '{plugin}': {error}",
+          "ENABLE": "Impossibile sattivare il plugin '{plugin}': {error}",
+          "FETCH": "Il plugin '{plugin}' è stato installato ma non è stato possibile caricarlo"
+        },
+        "SUCCESS": {
+          "INSTALLATION": "Il plugin '{plugin}' è stato installato e caricato con successo",
+          "UPDATE": "Il plugin '{plugin}' è stato aggiornato e caricato con successo",
+          "REMOVE": "Il plugin '{plugin}' è stato rimosso con successo",
+          "BLACKLIST": "Il plugin '{plugin}' è stato messo sulla lista nera",
+          "RELOAD": "Il repositorio dei plugin è stato ricaricato con successo"
+        },
+        "DISCLAIMER": "<b>Disclaimer:</b> The availability of this plugin in the ARK Desktop Wallet does not mean that either ARK.io or ARK SCIC is directly involved in the development or affiliated with the developer providing this plugin. By installing it on your wallet, you assume every responsibility.",
+        "REPORT": "Segnala questo plugin",
+        "BLACKLISTED": "Questo plugin è già sulla tua lista nera",
+        "VERSION_MISMATCH": "Questo plugin non è compatibile con la versione dell'applicazione Desktop Wallet"
       },
       "PROFILE_ALL": {
         "HEADER": "I miei profili",
@@ -594,11 +717,27 @@
             "TEXT": "Qui puoi scegliere il tema di default (chiaro o scuro) e lo sfondo."
           },
           "TITLE": "Design portafoglio"
+        },
+        "TAB_PLUGINS": {
+          "INSTRUCTIONS": {
+            "HEADER": "Impostazioni plugin",
+            "TEXT": "Qui puoi cambiare le impostazioni del Plugin Manager"
+          },
+          "TITLE": "Plugin"
+        },
+        "ADVANCED_MODE": {
+          "DECLINE": "Declino",
+          "ACCEPT": "Accetto",
+          "QUESTION": "By enabling Advanced Mode you hereby assume the risk associated with downloading files and installing said files from a direct URL link. The aforementioned links have neither been tested nor approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of these URLs. We are not responsible for any consequences which may occur from downloading, viewing, or installing files directly from a URL or feature that is activated via toggling on Advanced Mode. ARK.io and ARK SCIC shall bear no liability for any loss suffered by users who bypass certain measures by toggling on Advanced Mode. By clicking “I Accept” you acknowledge that enabling Advanced Mode may result in you downloading, viewing, or installing content that may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
+          "TITLE": "Esclusione di responsabilità per la modalità avanzata"
         }
       },
       "WALLET": {
+        "BUSINESS": "Business",
         "TRANSACTIONS": "Transazioni",
         "DELEGATES": "Delegati",
+        "IPFS": "IPFS",
+        "MULTI_SIGNATURE": "Firma-multipla",
         "STATISTICS": "Statistiche",
         "SIGN_VERIFY": "Firma",
         "PURCHASE": "Acquista {ticker}"
@@ -721,17 +860,17 @@
     },
     "PLUGIN_TABLE": {
       "ACTIONS": "Azioni",
-      "ENABLE": "Attiva",
-      "ENABLED": "Attivato",
-      "DESCRIPTION": "Descrizione",
-      "DISABLE": "Disattiva",
+      "AUTHOR": "Autore",
+      "CATEGORY": "Categoria",
       "DISABLED": "Disattivato",
-      "ID": "ID",
+      "ENABLED": "Attivato",
+      "LOGO": "Logo",
       "NAME": "Nome",
-      "NO_PERMISSIONS": "Nessun permesso",
+      "AVAILABLE": "Disponibili",
       "NO_PLUGINS": "Nessun plugin disponibile",
-      "PERMISSIONS": "Permessi",
-      "STATUS": "Stato"
+      "SIZE": "Dimensioni",
+      "STATUS": "Stato",
+      "VERSION": "Versione"
     },
     "PROFILE_LEAVING_CONFIRMATION": {
       "QUESTION": "Sei sicuro di voler ignorare le modifiche apportate a questo profilo?",
@@ -763,33 +902,73 @@
         "DELEGATE_REGISTRATION": "Registrazione Delegato",
         "VOTE": "Voto",
         "UNVOTE": "Voto Rimosso",
-        "MULTI_SIGNATURE": "Firma-Multipla",
+        "MULTI_SIGN": "Trasferimento firma-multipla",
+        "MULTI_SIGNATURE": "Firma-multipla",
         "IPFS": "IPFS",
-        "HTLC_TRANSFER": "Trasferimneto Timelock",
         "MULTI_PAYMENT": "Pagamento Multiplo",
-        "DELEGATE_RESIGNATION": "Dimissioni Delegato"
+        "DELEGATE_RESIGNATION": "Dimissioni Delegato",
+        "HTLC_LOCK": "Trasferimento Timelock",
+        "HTLC_CLAIM": "Richiesta Timelock",
+        "HTLC_REFUND": "Rimborso Timelock",
+        "BUSINESS_REGISTRATION": "Registrazione Business",
+        "BUSINESS_RESIGNATION": "Dimissioni Business",
+        "BUSINESS_UPDATE": "Aggiornamento Business",
+        "BRIDGECHAIN_REGISTRATION": "Registrazione Bridgechain",
+        "BRIDGECHAIN_RESIGNATION": "Dimissioni Bridgechain",
+        "BRIDGECHAIN_UPDATE": "Aggiornamento Bridgechain"
       },
       "ERROR": {
+        "VALIDATION": {
+          "TRANSFER": "Non è stato possibile creare una transazione trasferimento",
+          "SECOND_SIGNATURE": "Non è stato possibile creare una registrazione di seconda firma",
+          "DELEGATE_REGISTRATION": "Non è stato possibile creare una registrazione come delegato",
+          "VOTE": "Non è stato possibile creare una transazione di voto",
+          "MULTI_SIGN": "Non è stato possibile firmare una transazione con firma-multipla",
+          "MULTI_SIGNATURE": "Non è stato possibile creare una transazione di firma-multipla",
+          "MULTI_PAYMENT": "Non è stato possibile creare una transazione di pagamento multiplo",
+          "IPFS": "Non è stato possibile creare una transazione IPFS",
+          "DELEGATE_RESIGNATION": "Non è stato possibile creare una transazione di dimissione come delegate",
+          "BUSINESS_REGISTRATION": "Non è stato possibile creare una registrazione come business",
+          "BUSINESS_RESIGNATION": "Non è stato possibile creare una transazione di dimissione come business",
+          "BUSINESS_UPDATE": "Non è stato possibile creare una transazione di aggiornamento business",
+          "BRIDGECHAIN_REGISTRATION": "Non è stato possibile creare una registrazione di una bridgechain",
+          "BRIDGECHAIN_RESIGNATION": "Non è stato possibile creare una transazione di dimissione di una bridgechain",
+          "BRIDGECHAIN_UPDATE": "Non è stato possibile creare una transazione di aggiornamento di una bridgechain"
+        },
         "TRANSFER": "La tua transazione non può essere inviata",
         "SECOND_SIGNATURE": "Impossibile registrare Seconda firma",
         "DELEGATE_REGISTRATION": "Impossibile registrare come Delegato",
         "VOTE": "Impossibile registrare il voto",
         "UNVOTE": "Impossibile registrare la rimozione del voto",
-        "MULTI_SIGNATURE": "Impossibile creare firma-multipla",
         "IPFS": "IPFS",
-        "HTLC_TRANSFER": "Impossibile creare trasferimento Timelock",
+        "MULTI_SIGN": "Impossibile firmare transazione",
+        "MULTI_SIGNATURE": "Impossibile creare firma-multipla",
+        "HTLC_LOCK": "Impossibile creare trasferimento Timelock",
+        "HTLC_CLAIM": "Impossibile creare richiesta Timelock",
+        "HTLC_REFUND": "Impossibile creare rimborso Timelock",
         "MULTI_PAYMENT": "Impossibile creare pagamento multiplo",
+        "MULTI_PAYMENT_TO_SELF": "Escludendo {amount} inviato a se stesso",
         "DELEGATE_RESIGNATION": "La dimissione del Delegato non è andata a buon fine",
+        "BUSINESS_REGISTRATION": "La registrazione Business non è andata a buon fine",
+        "BUSINESS_RESIGNATION": "La dimissione del Business non è andata a buon fine",
+        "BUSINESS_UPDATE": "L'aggiornamento' del Business non è andata a buon fine",
+        "BRIDGECHAIN_REGISTRATION": "La registrazione Bridgechain non è andata a buon fine",
+        "BRIDGECHAIN_RESIGNATION": "La dimissione della Bridgechain non è andata a buon fine",
+        "BRIDGECHAIN_UPDATE": "L'aggiornamento' della Bridgechain non è andata a buon fine",
         "SAVE_OFFLINE": "Impossibile salvare il file transazione",
         "LOAD_FROM_FILE": "Impossibile caricare il file transazione",
         "EXPIRED": "Transazione scaduta prima di essere proccessata: {transactionId}",
         "FEE_TOO_LOW": "La transazione non può essere inviata perchè la commissione ({fee}) è troppo bassa",
         "NOTHING_SENT": "La transazione non può essere inviata. Controlla la tua connessione di rete o cambia peer",
+        "WRONG_NONCE": "Nonce sbagliata",
         "NETWORK_NOT_CONFIGURED": "Rete non configurata",
         "WALLET_NOT_IMPORTED": "Wallet non importato"
       },
       "FOOTER_TEXT": {
-        "DELEGATE_REGISTRATION": "Tieni presente che non è possibile modificare il nome del Delegato dopo che la registrazione è stata registrata sulla blockchain."
+        "DELEGATE_REGISTRATION": "Tieni presente che non è possibile modificare il nome del Delegato dopo che la registrazione è stata registrata sulla blockchain.",
+        "DELEGATE_RESIGNATION": "Tieni presente che non è possibile ripristinare il Delegato dopo che le dimissioni sono state registrate sulla blockchain.",
+        "BUSINESS_RESIGNATION": "Tieni presente che non è possibile ripristinare il Business dopo che le dimissioni sono state registrate sulla blockchain.",
+        "BRIDGECHAIN_RESIGNATION": "Tieni presente che non è possibile ripristinare la Bridgechain dopo che le dimissioni sono state registrate sulla blockchain."
       },
       "INFO": {
         "BROADCASTING": "La tua transazione viene trasmessa alla rete",
@@ -801,11 +980,20 @@
         "DELEGATE_REGISTRATION": "Registrato con successo come Delegato",
         "VOTE": "Votato con successo",
         "UNVOTE": "Voto rimosso con successo",
+        "MULTI_SIGN": "Transazione firmata con successo",
         "MULTI_SIGNATURE": "Firma-multipla creata con successo",
         "IPFS": "IPFS",
-        "HTLC_TRANSFER": "Trasferimento Timelock creato con successo",
+        "HTLC_LOCK": "Trasferimento Timelock creato con successo",
+        "HTLC_CLAIM": "Richiesta Timelock creata con successo",
+        "HTLC_REFUND": "Rimborso Timelock creato con successo",
         "MULTI_PAYMENT": "Pagamento multiplo creato con successo",
         "DELEGATE_RESIGNATION": "Dimissioni Delegato date con successo",
+        "BUSINESS_REGISTRATION": "Business registrato con successo",
+        "BUSINESS_RESIGNATION": "Dimissioni Business date con successo",
+        "BUSINESS_UPDATE": "Aggiornamento Business creato con successo",
+        "BRIDGECHAIN_REGISTRATION": "Bridgechain creata con success",
+        "BRIDGECHAIN_RESIGNATION": "Dimissioni Bridgechain date con successo",
+        "BRIDGECHAIN_UPDATE": "Aggiornamento Bridgechain creato con successo",
         "SAVE_OFFLINE": "File transazione creato con successo in: {path}",
         "LOAD_FROM_FILE": "File transazione caricato con successo"
       },
@@ -813,11 +1001,53 @@
         "VOTE_DELEGATE": "Vote per Delegato {delegate}",
         "UNVOTE_DELEGATE": "Rimuovi voto a Delegato {delegate}"
       },
+      "MULTI_PAYMENT": {
+        "BUTTON_ADD": "Aggiungi",
+        "NO_RECIPIENTS": "Non ci sono destinatari",
+        "RECIPIENTS": "Destinatari",
+        "TOTAL_AMOUNT": "Importo totale",
+        "WARNING_DUPLICATE": "Questo indirizzo è già un destinatario"
+      },
+      "MULTI_SIGNATURE": {
+        "ADDRESS": "Indirizzo firma-multipla",
+        "BUTTON_ADD": "Aggiungi",
+        "ERROR_DUPLICATE": "La chiave pubblica è già stata aggiunta",
+        "ERROR_MIN_KEYS_TOO_HIGH": "Il numero minimo di firme richieste è troppo alto",
+        "ERROR_MIN_KEYS_TOO_LOW": "Il numero minimo di firme richieste è troppo basso",
+        "ERROR_PUBLIC_KEY_NOT_FOUND": "Impossibile determinare la chiave pubblica",
+        "ERROR_PUBLIC_KEY_EXISTS": "Chiave pubblica già fornita",
+        "MIN_KEYS": "Firme minime richieste",
+        "N_MORE": "Mancano {0} firme",
+        "PUBLIC_KEYS": "Chiavi pubbliche",
+        "READY": "Pronto",
+        "TOTAL_SIGNATURES": "Totale firme",
+        "TAB": {
+          "ADDRESS": "Indirizzo",
+          "PUBLIC_KEY": "Chiave pubblica"
+        },
+        "YOUR_SIGNATURE": "La tua firma",
+        "NO_SIGNATURES": "Non ci sono firme"
+      },
+      "BRIDGECHAIN": {
+        "BUTTON_ADD": "Aggiungi",
+        "NAME": "Nome",
+        "SEED_NODE": "Indirizzo IP del nodo seed",
+        "SEED_NODES": "Nodi seed",
+        "GENESIS_HASH": "Hash genesi",
+        "BRIDGECHAIN_REPOSITORY": "Repositorio bridgechain",
+        "BRIDGECHAIN_ASSET_REPOSITORY": "Repositorio di risorse bridgechain",
+        "API_PORT": "Porta API",
+        "ERROR_DUPLICATE": "Il nodo seed è già stato aggiunto",
+        "NO_SEED_NODES": "Non ci sono nodi seed",
+        "INVALID_SEEDS": "Hai un nodo seed non valido - per favore controlla che sia attivo e funzionante correttamente | Hai nodi seed non validi - per favore controlla che siano attivi e funzionanti correttamente"
+      },
       "WARNING": {
         "BROADCAST": "La transazione è stata trasmessa agli altri peers. Potrebbero non accettarla"
       },
       "AMOUNT": "Importo",
       "BLOCK_ID": "ID blocco",
+      "BUSINESS_NAME": "Nome business",
+      "BRIDGECHAIN_NAME": "Nome bridgechain",
       "CONFIRMATION_COUNT": "{confirmations} Conferme",
       "CONFIRM_SEND_ALL": "In questo modo tutti i token del portafoglio corrente verranno inviati in questa transazione.",
       "CONFIRM_SEND_ALL_TITLE": "Vuoi inviare tutti i tuoi tokens?",
@@ -827,6 +1057,7 @@
       "DISCARD": "Scartato",
       "EXPIRED": "Scaduto",
       "FEE": "Commissione di trasferimento",
+      "HASH": "Hash",
       "ID": "ID",
       "LEDGER_SIGN_NOTICE": "Successivamente confermerai la transazione con il tuo Ledger",
       "LEDGER_SIGN_WAIT": "In attesa della firma dal Ledger. Si prega di controllare e firmare la transazione quando si è pronti.",
@@ -834,10 +1065,12 @@
       "LEDGER_USER_DECLINED": "L'utente ha rifiutato",
       "LOAD_FROM_FILE": "Carica transazione da file",
       "MULTIPLE": "Multiplo",
+      "NONCE": "Nonce",
       "OPEN_IN_EXPLORER": "Apri in Explorer",
       "PASSPHRASE": "Frase segreta",
       "PASSWORD": "Password di cifratura",
       "RECIPIENT": "Destinatario",
+      "RECIPIENTS": "Destinatari",
       "RESEND": "Invia di nuovo",
       "RESENT_NOTICE": "La transazione {transactionId} è stata inviata di nuovo",
       "SAVE_OFFLINE": "Salva transazione offline",
@@ -845,9 +1078,12 @@
       "SEND": "Invia",
       "SEND_ALL": "Invia Tutto",
       "SENDER": "Mittente",
+      "SIGN": "Firma",
       "SINGLE": "Singolo",
+      "STATUS": "Stato",
       "TIMESTAMP": "Timestamp",
       "TRANSACTION": "Transazione",
+      "USERNAME": "Username",
       "VENDOR_FIELD": "Smartbridge",
       "WELL_CONFIRMED": "Ben confermata",
       "WELL_CONFIRMED_COUNT": "Ben confermata ({confirmations} conferme)"
@@ -875,13 +1111,28 @@
       "SUCCESSFULL_VERIFY": "Il tuo messaggio è stato verificato"
     },
     "SYNCHRONIZER": {
-      "VOTE": "votato per",
-      "UNVOTE": "voto rimosso",
-      "NEW_SECOND_SIGNATURE": "Nuova Seconda firma: {address}",
-      "NEW_DELEGATE_REGISTRATION": "Nuovo delegato: {address} registrato come {username}",
-      "NEW_VOTE": "Nuovo voto: {address} {voteUnvote} {publicKey}",
-      "NEW_TRANSFER_SENT": "Nuovo trasferimento: {amount} inviato da {sender} verso {recipient}",
-      "NEW_TRANSFER_RECEIVED": "Nuovo trsferimento: {amount} ricevuto da {sender} verso {recipient}"
+      "GROUP_1": {
+        "VOTE": "votato per",
+        "UNVOTE": "voto rimosso",
+        "NEW_SECOND_SIGNATURE": "Nuova Seconda firma: {address}",
+        "NEW_DELEGATE_REGISTRATION": "Nuovo delegato: {address} registrato come {username}",
+        "NEW_VOTE": "Nuovo voto: {address} {voteUnvote} {publicKey}",
+        "NEW_MULTI_SIGNATURE": "Nuova firma-multipla: {address}",
+        "NEW_IPFS": "Nuovo hash IPFS: {address}",
+        "NEW_MULTI_PAYMENT_SENT": "Nuovo pagamento multiplo: {amount} inviato da {sender} a {recipient}",
+        "NEW_MULTI_PAYMENT_RECEIVED": "Nuovo pagamento multiplo: {amount} ricevuto da {sender} verso {recipient}",
+        "NEW_DELEGATE_RESIGNATION": "Nuove dimissioni delegato: {address}",
+        "NEW_TRANSFER_SENT": "Nuovo trasferimento: {amount} inviato da {sender} a {recipient}",
+        "NEW_TRANSFER_RECEIVED": "Nuovo trasferimento: {amount} ricevuto da {sender} verso {recipient}"
+      },
+      "GROUP_2": {
+        "NEW_BUSINESS_REGISTRATION": "Nuova registrazione business: {address} business {name}",
+        "NEW_BUSINESS_RESIGNATION": "Nuove dimissioni business: {address}",
+        "NEW_BUSINESS_UPDATE": "Nuovo aggiornamento business: {address}",
+        "NEW_BRIDGECHAIN_REGISTRATION": "Nuova registrazione bridgechain: {address}, bridgechain {bridgechain}",
+        "NEW_BRIDGECHAIN_RESIGNATION": "Nuove dimissioni bridgechain: {address}, bridgechain {bridgechain}",
+        "NEW_BRIDGECHAIN_UPDATE": "Nuovo aggiornamento bridgechain: {address}, bridgechain {bridgechain}"
+      }
     },
     "TRANSACTION_FORM": {
       "ERROR": {
@@ -895,11 +1146,25 @@
       "ACTIONS": {
         "WALLET_NAME": "Nome portafoglio",
         "CONTACT_NAME": "Nome contatto",
-        "REGISTER_DELEGATE": "Registra Delegato",
+        "REGISTER_MULTISIGNATURE": "Registra firma-multipla",
+        "REGISTER_DELEGATE": "Registra delegato",
+        "RESIGN_DELEGATE": "Dimetti delegato",
         "SECOND_PASSPHRASE": "2ª frase segreta",
+        "DELETE_CONTACT": "Elimina contatto",
         "DELETE_WALLET": "Elimina portafoglio",
         "SHOW_PUBLIC_KEY": "Mostra chiave pubblica",
-        "SHOW_ADDRESS": "Mostra indirizzo"
+        "SHOW_ADDRESS": "Mostra indirizzo",
+        "BUSINESS": {
+          "REGISTER": "Registra business",
+          "RESIGN": "Dimetti business",
+          "UPDATE": "Aggiorna business",
+          "CANNOT_RESIGN": "Devi prima dimettere tutte le bridgechain"
+        },
+        "BRIDGECHAIN": {
+          "REGISTER": "Registra bridgechain",
+          "RESIGN": "Dimetti bridgechain",
+          "UPDATE": "Aggiorna bridgechain"
+        }
       },
       "PENDING_BALANCE": "{amount} compreso 1 transazione non confermata | {amount} compreso {n} transazioni non confermate",
       "SECOND_PASSPHRASE_ENABLED": "Seconda firma abilitata"
@@ -932,9 +1197,17 @@
       }
     },
     "WALLET_DELEGATES": {
+      "STATUS": {
+        "TITLE": "Stato",
+        "ACTIVE": "Attivo",
+        "STANDBY": "In attesa",
+        "RESIGNED": "Dimesso"
+      },
       "RANK": "Rango",
       "USERNAME": "Username",
       "RANK_BANNER": "Rango: {rank}",
+      "RANK_NOT_APPLICABLE": "Non applicabile",
+      "RANK_NOT_AVAILABLE": "Non ancora disponibile",
       "APPROVAL": "Voto %",
       "FORGED": "Forgiati",
       "BLOCKS": "Blocchi",
@@ -946,7 +1219,8 @@
       "USERNAME_ERROR": "Nessun carattere speciale o maiuscolo consentito",
       "USERNAME_EXISTS": "Esiste già un delegato con questo username",
       "USERNAME_MAX_LENGTH_ERROR": "Il nome utente deve essere inferiore o uguale a 20 caratteri",
-      "ALREADY_REGISTERED": "Questo portafoglio è già registrato come Delegato",
+      "ALREADY_REGISTERED": "Questo portafoglio è già registrato come delegato",
+      "NOT_REGISTERED": "Questo portafoglio non è registrato come delegato",
       "BLOG": "Guida al voto",
       "EXPLANATION": "Il voto è opzionale, ma importante, che mantiene la rete ARK sicura. I 51 delegati con il maggior numero di voti della rete sono responsabili della verifica e della forgiatura di transazioni in nuovi blocchi. Questa pagina può essere utilizzata per esprimere il tuo voto per un delegato che vuoi supportare. Ulteriori informazioni sul voto per un delegato sono disponibili al seguente link:",
       "VOTE_DELEGATE": "Vota Delegato {delegate}",
@@ -959,6 +1233,52 @@
       "AWAITING_VOTE_CONFIRMATION": "Il tuo {type} è in attesa di conferma",
       "LOADING_VOTE": "Caricamento dei dettagli del voto ...",
       "SEARCH_DELEGATE": "Cerca delegato"
+    },
+    "WALLET_IPFS": {
+      "HEADER": "Hash IPFS",
+      "DESCRIPTION": "Salva un hash IPFS sulla rete",
+      "BUTTON_STORE_HASH": "Salva hash",
+      "MESSAGE": "Hash IPFS",
+      "SIGNATURE": "Hash IPFS",
+      "HASH": "Hash",
+      "HASH_ERROR": "L'hash IPFS non è un hash valido"
+    },
+    "WALLET_MULTI_SIGNATURE": {
+      "HEADER": "Firma-multipla",
+      "DESCRIPTION": "Transazioni in sospeso che richiedono la tua firma",
+      "BUTTON_SET_PEER": "Imposta peer"
+    },
+    "WALLET_BUSINESS": {
+      "BUTTON_REGISTER_BRIDGECHAIN": "Registra bridgechain",
+      "HEADER": "Bridgechain",
+      "DESCRIPTION": "Tutte le bridgechain registrate per questo business",
+      "NAME": "Nome",
+      "NAME_ERROR": "Non sono ammessi caratteri speciali o maiuscole",
+      "WEBSITE": "Sito web",
+      "VAT": "VAT",
+      "REPOSITORY": "Repositorio",
+      "NO_TRANSACTIONS": "Questo portafoglio non ha nessuna bridgechain",
+      "NOT_REGISTERED": "Questo portafoglio non è registrato come business",
+      "COLUMN": {
+        "NAME": "Nome",
+        "SEEDS": "Seeds",
+        "GENESIS_HASH": "Hash genesi",
+        "REPOSITORY": "Repositorio"
+      },
+      "BRIDGECHAIN": {
+        "NAME": "Nome",
+        "SEED_NODES": "Nodi seed",
+        "GENESIS_HASH": "Hash genesi",
+        "BRIDGECHAIN_REPOSITORY": "Repositorio bridgechain",
+        "BRIDGECHAIN_ASSET_REPOSITORY": "Repositorio di risorse bridgechain",
+        "API_PORT": "Porta API",
+        "NOT_REGISTERED": "Questa bridgechain non è registrata",
+        "RESIGNED": "Dimesso",
+        "BUTTON": {
+          "RESIGN": "Dimetti",
+          "UPDATE": "Aggiorna"
+        }
+      }
     },
     "WALLET_GRID": {
       "LOADING_LEDGER": "Caricamento portafogli Ledger..."
@@ -982,7 +1302,27 @@
     },
     "WALLET_REMOVAL_CONFIRMATION": {
       "NOTE": "Non verrà cancellato alcun dato sulla blockchain. Potrai recuperare il portafoglio finché possiedi la frase segreta",
-      "QUESTION": "Sei sicuro di voler rimuovere questo portafoglio?"
+      "QUESTION": "Sei sicuro di voler rimuovere questo portafoglio?",
+      "CONTACT_QUESTION": "Sei sicuro di voler rimuovere questo portafoglio?"
+    },
+    "PLUGIN_REMOVAL_CONFIRMATION": {
+      "NOTE": "Se disintalli questo plugin verrà rimosso da tutti i profili",
+      "QUESTION": "Sei sicuro di voler disinstallare '{plugin}'?",
+      "OPTIONS": {
+        "DATA": "Vuoi cancellare anche tutti i dati e le impostazioni del plugin?"
+      },
+      "SUCCESS": "Il plugin '{plugin}' è stato rimosso",
+      "ERROR": "Impossibile rimuovere plugin: {error}"
+    },
+    "PLUGIN_BLACKLIST_CONFIRMATION": {
+      "NOTE": "Mettendo questo plugin nella lista nera verrà disabilitato su tutti i profili e non sarà più visibile nel Plugin Manager",
+      "QUESTION": "Vuoi mettere '{plugin}' nella lista nera?"
+    },
+    "BLACKLIST_DISCLAIMER_CONFIRMATION": {
+      "QUESTION": "Sei sicuro di voler disattivare la lista nera?",
+      "NOTE": "Warning: By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. ARK.io and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking \"I Accept\" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
+      "ACCEPT": "Accetto",
+      "CANCEL": "Annulla"
     },
     "WALLET_TRANSACTIONS": {
       "TRANSACTION_ID": "ID transazione",
