@@ -1,7 +1,7 @@
 {
   "name": "@dated/italian-language-plugin",
-  "version": "0.0.1",
-  "description": "Italian Language Pack",
+  "version": "1.0.0",
+  "description": "Italian Language Pack for the ARK Desktop Wallet",
   "main": "src/index.js",
   "author": "Edgar Goetzendorff <hello@dated.fun>",
   "license": "MIT",
@@ -14,10 +14,12 @@
     "permissions": [
       "LANGUAGES"
     ],
-    "minVersion": "2.7"
+    "minVersion": "2.9.1"
   },
   "keywords": [
+    "italian",
     "language",
+    "translations",
     "@arkecosystem",
     "desktop-wallet",
     "plugin"
