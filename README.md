@@ -1,6 +1,6 @@
 # Italian Language Plugin
 
-> Italian translations for the ARK Desktop Wallet.
+> Italian translations for the [ARK Desktop Wallet](https://ark.io/wallet).
 
 ## Installation
 
