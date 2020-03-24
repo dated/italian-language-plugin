@@ -1,6 +1,6 @@
 {
   "name": "@dated/italian-language-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Italian Language Pack for the ARK Desktop Wallet",
   "main": "src/index.js",
   "author": "Edgar Goetzendorff <hello@dated.fun>",
