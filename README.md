@@ -11,6 +11,8 @@ Install this plugin directly through the Plugins Manager of the Desktop Wallet. 
 - [Edgar Goetzendorff](https://github.com/dated)
 - [All Contributors](../../contributors)
 
+The translations in this plugin are based on the original translations done by [danielstc](https://github.com/danielstc). These were adjusted to fit the required format and extended by over 300 keys.
+
 ## License
 
 [MIT](LICENSE) © [Edgar Goetzendorff](https://github.com/dated)
